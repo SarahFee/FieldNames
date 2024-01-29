@@ -1,5 +1,5 @@
 # FieldNames
-Script that turns Sentences to ODK FieldNames [Try the Field Names Standardization App](https://huggingface.co/spaces/Sfe61/FieldNames_Standardization)
+Script that turns Survey indicators to an ODK FieldNames [Try the Field Names Standardization App](https://huggingface.co/spaces/Sfe61/FieldNames_Standardization)
 
 1) Enter your Indicator in  Enter Sentence
 2) Select the Answer Type
