@@ -1,6 +1,4 @@
-import gradio as gr
 import re
-
 def sentence_to_odk_fieldname(sentence, answer_type):
     # Dictionary for specific abbreviations
     abbreviations = {
@@ -59,23 +57,3 @@ def sentence_to_odk_fieldname(sentence, answer_type):
     field_name = field_name[:128]
 
     return field_name
-
-def main(sentence, answer_type):
-    field_name = sentence_to_odk_fieldname(sentence, answer_type)
-    character_count = len(field_name)
-    return field_name, character_count
-
-answer_types = ["select_one", "select_multiple", "decimal", "integer", "text"]
-iface = gr.Interface(
-    fn=main, 
-    inputs=[
-        gr.Textbox(label="Enter Sentence"), 
-        gr.Dropdown(choices=answer_types, label="Answer Type")
-    ], 
-    outputs=[
-        gr.Textbox(label="Field Name"),
-        gr.Textbox(label="Character Count")
-    ]
-)
-
-iface.launch(share=True)
