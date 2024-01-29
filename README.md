@@ -9,6 +9,7 @@ sentence_to_odk_fieldname Function: This is the core function of the script. It 
 - Removing Irrelevant Words: Certain general and context-specific words are removed from the sentence.
 - Lowercasing and Splitting: The sentence is converted to lowercase and split into words.
 - Creating Field Name: The remaining words are then combined to form a field name, following specific rules based on the answer type (e.g., 'select_one', 'decimal').
+  
 main Function: This is a higher-level function that uses sentence_to_odk_fieldname. It:
 
 - Takes a sentence and an answer type.
