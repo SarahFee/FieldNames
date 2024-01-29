@@ -1,5 +1,5 @@
 # FieldNames
-Script that turns Survey indicators to an ODK FieldNames [Try it out yourself](https://huggingface.co/spaces/Sfe61/FieldNames_Standardization)
+Turning Survey indicators to an ODK FieldNames now it's possible [Try it out yourself](https://huggingface.co/spaces/Sfe61/FieldNames_Standardization)
 
 1) Enter your Indicator in  Enter Sentence
 2) Select the Answer Type
