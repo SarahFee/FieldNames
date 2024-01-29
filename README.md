@@ -1,7 +1,7 @@
 # FieldNames
 This script defines a Python program that is designed to convert a given sentence into a standardized field name, particularly useful for naming fields in forms, surveys, or databases, like Open Data Kit (ODK). The script also counts the number of characters in the generated field name. 
 
-- sentence_to_odk_fieldname Function: This is the core function of the script. It takes a sentence and an answer type as inputs and processes the sentence to generate a field name according to specific rules. These rules include:
+sentence_to_odk_fieldname Function: This is the core function of the script. It takes a sentence and an answer type as inputs and processes the sentence to generate a field name according to specific rules. These rules include:
 
 - Replacing Abbreviations: The function has a dictionary of abbreviations, which it uses to replace certain words or phrases in the sentence with their abbreviated forms.
 - Processing Parentheses: Text within parentheses is included or excluded based on its character count (excluding punctuation). If the text is too long, it's excluded.
